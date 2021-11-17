@@ -10,6 +10,12 @@ public static function getConnection()
         $db = new PDO ($dsn, $params['user'], $params['password']);
 
         return $db;
+
+
+
+
+
+
     }
 
 }
